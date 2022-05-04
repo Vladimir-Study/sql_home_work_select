@@ -1,3 +1,11 @@
+delete from trackcompilation;
+delete from artistjenre;
+delete from albumartist;
+delete from compilation;
+delete from artist;
+delete from track;
+delete from album;
+delete from jenre;
 insert into jenre values
 (1, 'pop'),
 (2, 'rock'),
@@ -63,7 +71,9 @@ insert into track values
 (5, 'Summer', 4.34, 11),
 (6, 'Kid', 3.45, 13),
 (7, 'Poromshik', 3.38, 15),
-(8, 'Orange sun', 4.02, 17);
+(8, 'Orange sun', 4.02, 17),
+(9, 'Spirit', 3.24, 14),
+(10, 'Love', 4.56, 5);
 insert into trackcompilation values
 (1, 1),
 (2, 2),
